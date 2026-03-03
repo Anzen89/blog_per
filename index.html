@@ -11,41 +11,39 @@
     <meta name="theme-color" content="blue">
     <!--Cuando ingrese a la pagina automaticamente se redirige a otra-->
     <!-- <meta http-equiv="refresh" content="5;url=https://github.com/Anzen89/blog_per" > -->
-     <meta name="title" content="Morropón Cuna del Tondero y Cumanana" >
-     <meta name="descripcion" content="Pagina oficial de Morropón, encontrarás lugares turisticos, restaurant es y más.">
+    <meta name="title" content="Morropón Cuna del Tondero y Cumanana" >
+    <meta name="descripcion" content="Pagina oficial de Morropón, encontrarás lugares turisticos, restaurant es y más.">
      <!--Referencia si se publica en red social para mostrar la imagen - utilizar open graph-->
      <!-- <link rel="image_src" href="https://dominio.com/image.png"> -->
 
      <!--Con que se esta generando esta pagina-->
-      <meta name="generator" content="VSCode">
+    <meta name="generator" content="VSCode">
       <!--No se esta mostrando en google y tampoco google entra a ver el contenido-->
-      <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="noindex, nofollow">
       <!--No traduce la pagina automaticamente-->
-      <meta name="google" content="notranslate">
+    <meta name="google" content="notranslate">
       <!--No muestra el minibuscador de googles-->
-      <meta name="google" content="nosidelinkssearchbox">
+    <meta name="google" content="nosidelinkssearchbox">
         <!--link etiqueta para traer datos externos a la pagina-->
-      <link rel="stylesheet" href="">
-
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <header>
+    <header class="titulo_principal">
         <!--Encabezado de la pagina - Titulo y logo-->
-    
+    <h1>"MORROPON CUNA DEL TONDERO Y LA CUMANANA"</h1>
     </header>
 
     <!--Contenido de Informacion-->
-    <section>
-
-    
+    <section class="portada_principal">
     <div>
-        <h1>PLAZA PRINCIPAL DE MORROPON</h1>
+        <h2>PLAZA PRINCIPAL DE MORROPON</h2>
         <!--alt: descripcion de la imagen-->
         <img src="img/principal/plaza_morropon.jpg" alt="La nueva plaza de Morropón" title="Plaza de Armas de morropon" />
         <p>Esta es la plaza principal de Morropón</p>
         
-        <a href="morropon.html" target="_blank">Plaza Morropon</a>
+        <a href="img/principal/plaza_morropon.jpg" target="_blank" download="plaza_morropon">Plaza Morropon</a>
     </div>
 
     <!--El menu es para las acciones, ya sean botones o otro tipo de acciones-->
@@ -60,29 +58,28 @@
     <main>
 
     <div class="informacion">
-        <h1 id="info">Información de Morropon: </h1>
+        <h2 id="info">Información de Morropon: </h2>
         <!--Lo estoy utilizando porque muestra el texto como una cita -->
         <blockquote>
-            La provincia de Morropón es una de las ocho provincias que conforman el departamento de Piura en el norte del Perú. 
+            La provincia de <strong>Morropón</strong> es una de las ocho provincias que conforman el departamento de Piura en el norte del Perú. 
             Limita por el norte con la provincia de Ayabaca, por el este con la provincia de Huancabamba, por el sur con el departamento de Lambayeque y por el oeste con la provincia de Piura.
             Desde el punto de vista de la jerarquía de la Iglesia católica, forma parte de la diócesis de Chulucanas.
             Morropón es una provincia ubicada en la parte occidental de los andes piuranos. 
             El territorio se encuentra dividido en dos por el Río Piura y cuenta con una amplia diversidad de ecosistemas. 
-            La provincia también es conocida como la Cuna del Tondero y la Cumanana. Fue creada como provincia por Ley N° 8174 aprobada el 21 de enero de 1936 y promulgada el 31 de enero de 1936.
+            La provincia también es conocida como <strong>la Cuna del Tondero y la Cumanana</strong>. Fue creada como provincia por Ley N° 8174 aprobada el 21 de enero de 1936 y promulgada el 31 de enero de 1936.
         </blockquote>
     </div>
 
     <div class="destacado">
-        <h1>Destacado de Morropón: </h1>
+        <h2>Destacado de Morropón: </h2>
         <blockquote>
-            Morropón es conocida por sus cultores de géneros musicales como el tondero y la cumanana;
+            Morropón es conocida por sus cultores de géneros musicales como el <em>tondero y la cumanana</em>;
             en que guitarristas y poetas campesinos cantan, en sus creaciones, nostalgias de tiempos pasados. 
             También es conocida por sus artesanos que trabajan la plata con la iconografía local.
 
         </blockquote>
     </div>
 
-    <div class="restaurant">
         <section class="restaurantes ">
 
             <h1>Restaurantes :</h1>
@@ -263,9 +260,7 @@
           
             </ul>
        </section> 
-    </div>
 
-    <div class="lugares">
         <section class="lugares_turisticos">
             <h1>Lugares turisticos : </h1>
             <blockquote>
@@ -327,9 +322,8 @@
         </ul>
 
         </section>
-    </div>
 
-    <div class="platos">
+
         <section class="platos_tipicos">
             <h1>Platos tipicos :</h1>
             <ul>
@@ -401,13 +395,16 @@
 
         </section>
         
-        
-
-    </div>
      </main>
 
      <footer>
-
+        <section>
+            <p>Mis redes sociales: </p>
+            <a>Facebook</a>
+            <a>Instagram</a>
+        </section>
+        <p>Contactate con nosotros</p>
+        <p>Febrero - © 2026</p>
      </footer>
 </body>
 </html> 
