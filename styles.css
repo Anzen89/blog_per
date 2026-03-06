@@ -62,6 +62,20 @@ h2{
     margin:20px 0;
 }
 
+/*BARRA INFORMACION*/
+.barra_info {
+    position:static;
+    top: 40%;
+    left: 0;
+    width: 100%;
+}
+
+.barra_info ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
 /* INFORMACION Y DESTACADO */
 .informacion, .destacado{
     background:white;
@@ -108,6 +122,80 @@ h2{
     font-size:0.9rem;
 }
 
+/* LUGARES TURISTICOS */
+.lugares_turisticos ul{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:25px;
+    list-style:none;
+}
+
+.lugares_turisticos article{
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s ease;
+}
+
+.lugares_turisticos article:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 25px rgba(0,0,0,0.15);
+}
+
+.lugares_turisticos img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.lugares_turisticos h2{
+    font-size:1.1rem;
+    padding:15px;
+}
+
+.lugares_turisticos p{
+    padding:0 15px 20px;
+    font-size:0.9rem;
+}
+
+/*PLATOS TIPICOS */
+.platos_tipicos ul{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:25px;
+    list-style:none;
+}
+
+.platos_tipicos article{
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s ease;
+}
+
+.platos_tipicos article:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 25px rgba(0,0,0,0.15);
+}
+
+.platos_tipicos img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.platos_tipicos h2{
+    font-size:1.1rem;
+    padding:15px;
+}
+
+.platos_tipicos p{
+    padding:0 15px 20px;
+    font-size:0.9rem;
+}
+
 /* BOTONES */
 a{
     display:inline-block;
@@ -121,7 +209,26 @@ a{
 }
 
 a:hover{
-    background:#2F5D50;
+    background:#a9d7ca;
+}
+
+.pie_pagina {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(img/principal/arco_plaza_morropon.jpg);
+    background-size:cover;
+    background-position:center;
+    height:20vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+
+}
+
+.pie_pagina section {
+
+    text-align: initial;
+
 }
 
 /* RESPONSIVE */
