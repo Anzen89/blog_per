@@ -197,19 +197,36 @@ h2{
 }
 
 /* BOTONES */
+
 a{
     display:inline-block;
-    margin-top:10px;
-    padding:10px 20px;
-    background:#8B4513;
-    color:white;
-    text-decoration:none;
+    margin-top:0px;
+    background-color: #8B4513;
+    
+    color:white;   
+    padding:6px;
+    text-decoration:none;   
     border-radius:8px;
     transition:0.3s;
 }
 
+figure a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    padding: 0%;
+}
+
+figure img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
 a:hover{
-    background:#a9d7ca;
+    background:#d7c8a9;
 }
 
 .pie_pagina {
@@ -229,6 +246,9 @@ a:hover{
 
     text-align: initial;
 
+}
+.pie_pagina article {
+    text-align: end;
 }
 
 /* RESPONSIVE */
