@@ -27,6 +27,7 @@
         <!--link etiqueta para traer datos externos a la pagina-->
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon/favicon/favicon-96x96.png" sizes="96x96" />
 
 </head>
 <body>
@@ -37,24 +38,25 @@
      <main>
         <nav class="barra_info">
             <ul>
-                <li><a href="#">Informacion</a></li>
-                <li><a href="#">Restaurantes</a></li>
-                <li><a href="#">lugares Turisticos</a></li>
-                <li><a href="#">Platos Tipicos</a></li>
+                <li><a href="#info">Informacion</a></li>
+                <li><a href="#restaurantes">Restaurantes</a></li>
+                <li><a href="#lugares_turisticos">lugares Turisticos</a></li>
+                <li><a href="#platos_tipicos">Platos Tipicos</a></li>
             </ul>
         </nav>
 
     <!--Contenido de Informacion-->
-    <section class="portada_principal">
+    <!-- <section class="portada_principal">
     <div>
         <h2>PLAZA PRINCIPAL DE MORROPON</h2>
-        <!--alt: descripcion de la imagen-->
-        <img src="img/principal/plaza_morropon.jpg" alt="La nueva plaza de Morropón" title="Plaza de Armas de morropon" loading="lazy"/>
+        alt: descripcion de la imagen-->
+        <!-- <img src="img/principal/plaza_morropon.jpg" alt="La nueva plaza de Morropón" title="Plaza de Armas de morropon" loading="lazy"/>
         <p>Esta es la plaza principal de Morropón</p>
         
         <a href="img/principal/plaza_morropon.jpg" target="_blank" download="plaza_morropon">Plaza Morropon</a>
-    </div>
+    </div> -->
 
+    <!--  -->
     <!--El menu es para las acciones, ya sean botones o otro tipo de acciones-->
     <!-- <div>
         <menu>
@@ -63,6 +65,7 @@
         </menu>
     </div> -->
     </section>
+    <br>
 
     <div class="informacion">
         <h2 id="info">Información de Morropon: </h2>
@@ -90,7 +93,7 @@
 
     <section class="restaurantes">
 
-        <article class="restaurant">
+        <article id="restaurantes">
             <h2>Restaurantes</h2>
             <figure>
                 <a href="restaurantes.html"><img src="img/lugares/piedra_perro.webp"> </a>
@@ -99,7 +102,7 @@
     </section>
 
     <section class="lugares_turisticos">
-        <article>
+        <article id="lugares_turisticos">
             <h2>Lugares Turisticos</h2>
             <figure>
                 <a href="lugares_turisticos.html"><img src="img/lugares/plaza_armas.webp"></a>
@@ -108,7 +111,7 @@
     </section>
 
     <section class="platos_tipicos">
-        <article>
+        <article id="platos_tipicos">
             <h2>Platos Tipicos</h2>
             <figure>
                 <a href="platos_tipicos.html"><img src="img/platos/Ceviche.webp"></a>>
